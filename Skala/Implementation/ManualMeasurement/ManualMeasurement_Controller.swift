@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import ARKit
 
-internal final class ManualMesaurement_Controller: UIViewController, ARSCNViewDelegate {
+internal final class ManualMeasurement_Controller: UIViewController, ARSCNViewDelegate {
     
     //: Init
     override final internal func viewDidLoad() {
@@ -21,6 +21,7 @@ internal final class ManualMesaurement_Controller: UIViewController, ARSCNViewDe
         _ = self.walkingState.register(controller: self)
         _ = self.measurementState.register(controller: self)
         
+        //: Init GUI
         self.cancelButton.alpha = 0.0
         self.tapGestureView.alpha = 0.0
         self.resultLabel.alpha = 0.0

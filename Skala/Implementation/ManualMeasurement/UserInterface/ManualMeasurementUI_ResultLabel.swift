@@ -11,9 +11,9 @@ import UIKit
 
 internal final class ManualMeasurementUI_ResultLabel: UILabel {
     
-    private final let controller: ManualMesaurement_Controller
+    private final let controller: ManualMeasurement_Controller
     
-    init(frame: CGRect, controller: ManualMesaurement_Controller) {
+    init(frame: CGRect, controller: ManualMeasurement_Controller) {
         self.controller = controller
         super.init(frame: frame)
     }

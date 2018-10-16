@@ -1,5 +1,5 @@
 //
-//  ManualMeasurementUI_CancelButton.swift
+//  AutomaticMeasurementUI_CancelButton.swift
 //  Skala
 //
 //  Created by Johannes Heinke Business on 16.10.18.
@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-internal final class ManualMeasurementUI_CancelButton: UIButton {
+internal final class AutomaticMeasurementUI_CancelButton: UIButton {
     
-    private final let controller: ManualMeasurement_Controller
+    private final let controller: AutomaticMeasurement_Controller
     
-    init(frame: CGRect, controller: ManualMeasurement_Controller) {
+    init(frame: CGRect, controller: AutomaticMeasurement_Controller) {
         self.controller = controller
         super.init(frame: frame)
     }

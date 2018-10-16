@@ -11,7 +11,7 @@ import UIKit
 internal final class MainMenue_Controller: UIViewController {
     
     //: Subviews
-    private final let manualMeasurementController = ManualMesaurement_Controller.init(nibName: nil, bundle: nil)
+    private final let manualMeasurementController = ManualMeasurement_Controller.init(nibName: nil, bundle: nil)
     private final let automaticMeasurementController = AutomaticMeasurement_Controller.init(nibName: nil, bundle: nil)
     
     //: GUI-Elements
