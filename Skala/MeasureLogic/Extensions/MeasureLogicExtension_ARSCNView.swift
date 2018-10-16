@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import ARKit
 
 extension ARSCNView {
     func worldPositionFromScreenPosition(_ position: CGPoint,
