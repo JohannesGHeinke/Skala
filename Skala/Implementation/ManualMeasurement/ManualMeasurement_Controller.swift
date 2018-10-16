@@ -73,14 +73,14 @@ internal final class ManualMesaurement_Controller: UIViewController, ARSCNViewDe
     }()
     
     internal lazy var tapGestureView = { () -> ManualMeasurementUI_TapGestureView in
-        let tapGestureView = ManualMeasurementUI_TapGestureView.init(frame: CGRect.init(x: 70, y: 140, width: 1500, height: 70)
+        let tapGestureView = ManualMeasurementUI_TapGestureView.init(frame: CGRect.init(x: 70, y: 210, width: 1500, height: 70)
             , controller: self)
         tapGestureView.backgroundColor = UIColor.green
         return tapGestureView
     }()
     
     internal lazy var resultLabel = { () -> ManualMeasurementUI_ResultLabel in
-        let label = ManualMeasurementUI_ResultLabel.init(frame: CGRect.init(x: 70, y: 210, width: 150, height: 70)
+        let label = ManualMeasurementUI_ResultLabel.init(frame: CGRect.init(x: 70, y: 140, width: 150, height: 70)
             , controller: self)
         label.backgroundColor = UIColor.purple
         return label

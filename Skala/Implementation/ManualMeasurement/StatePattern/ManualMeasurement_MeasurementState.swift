@@ -32,12 +32,12 @@ internal final class ManualMeasurement_MeasurementState: ManualMeasurement_Gener
                         return
                     }
                     let endValue = getCurrentPosition()
-                    controller.resultLabel.text = "\(((endValue.distanceFromPos(pos: startValue) * 10000).rounded() / 100)) cm"
+                    controller.resultLabel.text = "\(((endValue.distanceFromPos(pos: startValue) * 10000) / 100).rounded()) cm"
                 })
                 return
             }
             let endValue = getCurrentPosition()
-            controller.resultLabel.text = "\(((endValue.distanceFromPos(pos: startValue) * 10000).rounded() / 100)) cm"
+            controller.resultLabel.text = "\(((endValue.distanceFromPos(pos: startValue) * 10000) / 100).rounded()) cm"
             UIView.animate(withDuration: 0.5, animations: {
                 controller.resultLabel.alpha = 0.4
             })
