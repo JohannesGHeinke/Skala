@@ -8,6 +8,7 @@
 
 import Foundation
 import ARKit
+import SceneKit
 
 // MARK: - SCNNode extension
 extension SCNNode {
@@ -47,11 +48,6 @@ extension SCNVector3 {
     
     func length() -> Float {
         return sqrtf(x * x + y * y + z * z)
-    }
-    
-    func distanceFromPos(pos: SCNVector3) -> Float {
-        let diff = SCNVector3(self.x - pos.x, self.y - pos.y, self.z - pos.z);
-        return diff.length()
     }
     
     mutating func setLength(_ length: Float) {

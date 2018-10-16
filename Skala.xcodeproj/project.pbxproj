@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0656A017217600DD001F81F6 /* MessureLogicExtension_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656A016217600DD001F81F6 /* MessureLogicExtension_Array.swift */; };
 		C610ACA82175D99B00393425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACA72175D99B00393425 /* AppDelegate.swift */; };
 		C610ACAD2175D99B00393425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610ACAB2175D99B00393425 /* Main.storyboard */; };
 		C610ACAF2175D99C00393425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C610ACAE2175D99C00393425 /* Assets.xcassets */; };
@@ -67,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0656A016217600DD001F81F6 /* MessureLogicExtension_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessureLogicExtension_Array.swift; sourceTree = "<group>"; };
 		C610ACA42175D99B00393425 /* Skala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610ACA72175D99B00393425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C610ACAC2175D99B00393425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 			children = (
 				C610ACF52175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift */,
 				C610AD272175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift */,
+				0656A016217600DD001F81F6 /* MessureLogicExtension_Array.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				C610AD002175F7E800393425 /* AutomaticMeasurement_SettingState.swift in Sources */,
 				C610AD1E2175FE7200393425 /* List.swift in Sources */,
 				C610AD1D2175FE7200393425 /* BridgedList.swift in Sources */,
+				0656A017217600DD001F81F6 /* MessureLogicExtension_Array.swift in Sources */,
 				C610AD232175FE7200393425 /* BTreeIndex.swift in Sources */,
 				C610AD1A2175FE7200393425 /* Compatibility.swift in Sources */,
 				C610AD1C2175FE7200393425 /* BTreeIterator.swift in Sources */,
