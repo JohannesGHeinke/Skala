@@ -25,10 +25,12 @@ internal final class ManualMeasurement_Controller: UIViewController, ARSCNViewDe
         self.cancelButton.alpha = 0.0
         self.tapGestureView.alpha = 0.0
         self.resultLabel.alpha = 0.0
+        self.sceneView.alpha = 0.0
         
         self.view.addSubview(self.cancelButton)
         self.view.addSubview(self.tapGestureView)
         self.view.addSubview(self.resultLabel)
+        self.view.addSubview(self.sceneView)
     }
     
     override func viewWillAppear(_ animated: Bool) {

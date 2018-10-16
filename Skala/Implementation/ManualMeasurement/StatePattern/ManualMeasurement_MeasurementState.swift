@@ -48,6 +48,7 @@ internal final class ManualMeasurement_MeasurementState: ManualMeasurement_Gener
     }
     
     override final func handleTouchesBegan(at point: CGPoint) {
+        print(self.startPosition)
         self.handleMeasureSituation()
     }
     
