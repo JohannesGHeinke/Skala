@@ -29,6 +29,24 @@
 		C610ACFE2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACFD2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift */; };
 		C610AD002175F7E800393425 /* AutomaticMeasurement_SettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACFF2175F7E800393425 /* AutomaticMeasurement_SettingState.swift */; };
 		C610AD022175F8E800393425 /* AutomaticMeasurementUI_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD012175F8E800393425 /* AutomaticMeasurementUI_CancelButton.swift */; };
+		C610AD162175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD042175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift */; };
+		C610AD172175FE7200393425 /* SortedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD062175FE7200393425 /* SortedSet.swift */; };
+		C610AD182175FE7200393425 /* BTreeComparisons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD072175FE7200393425 /* BTreeComparisons.swift */; };
+		C610AD192175FE7200393425 /* SortedBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD082175FE7200393425 /* SortedBag.swift */; };
+		C610AD1A2175FE7200393425 /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD092175FE7200393425 /* Compatibility.swift */; };
+		C610AD1B2175FE7200393425 /* BTreePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD0A2175FE7200393425 /* BTreePath.swift */; };
+		C610AD1C2175FE7200393425 /* BTreeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD0B2175FE7200393425 /* BTreeIterator.swift */; };
+		C610AD1D2175FE7200393425 /* BridgedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD0C2175FE7200393425 /* BridgedList.swift */; };
+		C610AD1E2175FE7200393425 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD0D2175FE7200393425 /* List.swift */; };
+		C610AD1F2175FE7200393425 /* BTreeCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD0E2175FE7200393425 /* BTreeCursor.swift */; };
+		C610AD202175FE7200393425 /* BTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD0F2175FE7200393425 /* BTree.swift */; };
+		C610AD212175FE7200393425 /* BTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD102175FE7200393425 /* BTreeBuilder.swift */; };
+		C610AD222175FE7200393425 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD112175FE7200393425 /* Map.swift */; };
+		C610AD232175FE7200393425 /* BTreeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD122175FE7200393425 /* BTreeIndex.swift */; };
+		C610AD242175FE7200393425 /* BTreeMerger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD132175FE7200393425 /* BTreeMerger.swift */; };
+		C610AD252175FE7200393425 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD142175FE7200393425 /* Weak.swift */; };
+		C610AD262175FE7200393425 /* BTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD152175FE7200393425 /* BTreeNode.swift */; };
+		C610AD282175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD272175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +95,24 @@
 		C610ACFD2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_MeasurementState.swift; sourceTree = "<group>"; };
 		C610ACFF2175F7E800393425 /* AutomaticMeasurement_SettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_SettingState.swift; sourceTree = "<group>"; };
 		C610AD012175F8E800393425 /* AutomaticMeasurementUI_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurementUI_CancelButton.swift; sourceTree = "<group>"; };
+		C610AD042175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UndirectedGraph & UndirectedGraphSet.swift"; sourceTree = "<group>"; };
+		C610AD062175FE7200393425 /* SortedSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedSet.swift; sourceTree = "<group>"; };
+		C610AD072175FE7200393425 /* BTreeComparisons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeComparisons.swift; sourceTree = "<group>"; };
+		C610AD082175FE7200393425 /* SortedBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedBag.swift; sourceTree = "<group>"; };
+		C610AD092175FE7200393425 /* Compatibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compatibility.swift; sourceTree = "<group>"; };
+		C610AD0A2175FE7200393425 /* BTreePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreePath.swift; sourceTree = "<group>"; };
+		C610AD0B2175FE7200393425 /* BTreeIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeIterator.swift; sourceTree = "<group>"; };
+		C610AD0C2175FE7200393425 /* BridgedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgedList.swift; sourceTree = "<group>"; };
+		C610AD0D2175FE7200393425 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		C610AD0E2175FE7200393425 /* BTreeCursor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeCursor.swift; sourceTree = "<group>"; };
+		C610AD0F2175FE7200393425 /* BTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTree.swift; sourceTree = "<group>"; };
+		C610AD102175FE7200393425 /* BTreeBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeBuilder.swift; sourceTree = "<group>"; };
+		C610AD112175FE7200393425 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		C610AD122175FE7200393425 /* BTreeIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeIndex.swift; sourceTree = "<group>"; };
+		C610AD132175FE7200393425 /* BTreeMerger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeMerger.swift; sourceTree = "<group>"; };
+		C610AD142175FE7200393425 /* Weak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
+		C610AD152175FE7200393425 /* BTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeNode.swift; sourceTree = "<group>"; };
+		C610AD272175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureLogicExtension_ARSCNView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +224,7 @@
 		C610ACDE2175E13200393425 /* AutomaticMeasurement */ = {
 			isa = PBXGroup;
 			children = (
+				C610AD032175FE7200393425 /* WorldModel */,
 				C610ACF82175F6C800393425 /* StatePattern */,
 				C610ACF72175F6B800393425 /* UserInterface */,
 				C610ACE12175E1CB00393425 /* AutomaticMeasurement_Controller.swift */,
@@ -227,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				C610ACF52175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift */,
+				C610AD272175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -248,6 +286,38 @@
 				C610ACFF2175F7E800393425 /* AutomaticMeasurement_SettingState.swift */,
 			);
 			path = StatePattern;
+			sourceTree = "<group>";
+		};
+		C610AD032175FE7200393425 /* WorldModel */ = {
+			isa = PBXGroup;
+			children = (
+				C610AD042175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift */,
+				C610AD052175FE7200393425 /* BTree Beta */,
+			);
+			path = WorldModel;
+			sourceTree = "<group>";
+		};
+		C610AD052175FE7200393425 /* BTree Beta */ = {
+			isa = PBXGroup;
+			children = (
+				C610AD062175FE7200393425 /* SortedSet.swift */,
+				C610AD072175FE7200393425 /* BTreeComparisons.swift */,
+				C610AD082175FE7200393425 /* SortedBag.swift */,
+				C610AD092175FE7200393425 /* Compatibility.swift */,
+				C610AD0A2175FE7200393425 /* BTreePath.swift */,
+				C610AD0B2175FE7200393425 /* BTreeIterator.swift */,
+				C610AD0C2175FE7200393425 /* BridgedList.swift */,
+				C610AD0D2175FE7200393425 /* List.swift */,
+				C610AD0E2175FE7200393425 /* BTreeCursor.swift */,
+				C610AD0F2175FE7200393425 /* BTree.swift */,
+				C610AD102175FE7200393425 /* BTreeBuilder.swift */,
+				C610AD112175FE7200393425 /* Map.swift */,
+				C610AD122175FE7200393425 /* BTreeIndex.swift */,
+				C610AD132175FE7200393425 /* BTreeMerger.swift */,
+				C610AD142175FE7200393425 /* Weak.swift */,
+				C610AD152175FE7200393425 /* BTreeNode.swift */,
+			);
+			path = "BTree Beta";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,23 +451,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C610AD282175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift in Sources */,
+				C610AD242175FE7200393425 /* BTreeMerger.swift in Sources */,
+				C610AD202175FE7200393425 /* BTree.swift in Sources */,
 				C610ACE72175E63300393425 /* ManualMeasurement_GeneralState.swift in Sources */,
 				C610ACDD2175DD3100393425 /* ManualMeasurement_Controller.swift in Sources */,
 				C610ACD82175DA0700393425 /* MainMenue_Controller.swift in Sources */,
+				C610AD252175FE7200393425 /* Weak.swift in Sources */,
 				C610ACFA2175F6F200393425 /* AutomaticMeasurement_GeneralState.swift in Sources */,
+				C610AD1F2175FE7200393425 /* BTreeCursor.swift in Sources */,
 				C610ACEA2175E73A00393425 /* ManualMeasurement_WalkingState.swift in Sources */,
 				C610ACE22175E1CB00393425 /* AutomaticMeasurement_Controller.swift in Sources */,
 				C610ACF12175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift in Sources */,
+				C610AD1B2175FE7200393425 /* BTreePath.swift in Sources */,
+				C610AD222175FE7200393425 /* Map.swift in Sources */,
 				C610ACEC2175E88300393425 /* ManualMeasurement_MeasurementState.swift in Sources */,
 				C610AD022175F8E800393425 /* AutomaticMeasurementUI_CancelButton.swift in Sources */,
 				C610ACFC2175F73900393425 /* AutomaticMeasurement_WalkingState.swift in Sources */,
 				C610ACFE2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift in Sources */,
 				C610ACF62175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift in Sources */,
 				C610ACDA2175DAFF00393425 /* MainMenue_ModeButton.swift in Sources */,
+				C610AD182175FE7200393425 /* BTreeComparisons.swift in Sources */,
 				C610ACF32175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift in Sources */,
 				C610AD002175F7E800393425 /* AutomaticMeasurement_SettingState.swift in Sources */,
+				C610AD1E2175FE7200393425 /* List.swift in Sources */,
+				C610AD1D2175FE7200393425 /* BridgedList.swift in Sources */,
+				C610AD232175FE7200393425 /* BTreeIndex.swift in Sources */,
+				C610AD1A2175FE7200393425 /* Compatibility.swift in Sources */,
+				C610AD1C2175FE7200393425 /* BTreeIterator.swift in Sources */,
 				C610ACEF2175E8F200393425 /* ManualMeasurementUI_CancelButton.swift in Sources */,
 				C610ACA82175D99B00393425 /* AppDelegate.swift in Sources */,
+				C610AD162175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift in Sources */,
+				C610AD172175FE7200393425 /* SortedSet.swift in Sources */,
+				C610AD192175FE7200393425 /* SortedBag.swift in Sources */,
+				C610AD262175FE7200393425 /* BTreeNode.swift in Sources */,
+				C610AD212175FE7200393425 /* BTreeBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
