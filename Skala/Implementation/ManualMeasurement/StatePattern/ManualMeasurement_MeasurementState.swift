@@ -12,7 +12,9 @@ import SceneKit
 internal final class ManualMeasurement_MeasurementState: ManualMeasurement_GeneralState {
     
     override final func appaerState() {
-        print("Measurement")
+        print("ManualMeasurement Measurement")
+        self.startPosition = nil
+        self.handleMeasureSituation()
     }
     
     private final var timer = Timer.init()
@@ -32,16 +34,25 @@ internal final class ManualMeasurement_MeasurementState: ManualMeasurement_Gener
                         return
                     }
                     let endValue = getCurrentPosition()
-                    controller.resultLabel.text = "\(((endValue.distanceFromPos(pos: startValue) * 10000) / 100).rounded()) cm"
+                    controller.resultLabel.text = "\(((endValue.distance(from: startValue) * 10000) / 100).rounded()) cm"
                 })
                 return
             }
             let endValue = getCurrentPosition()
-            controller.resultLabel.text = "\(((endValue.distanceFromPos(pos: startValue) * 10000) / 100).rounded()) cm"
+            controller.resultLabel.text = "\(((endValue.distance(from: startValue) * 10000) / 100).rounded()) cm"
             UIView.animate(withDuration: 0.5, animations: {
                 controller.resultLabel.alpha = 0.4
             })
             controller.currentState = controller.walkingState
         }
+    }
+    
+    override final func handleTouchesBegan(at point: CGPoint) {
+        self.handleMeasureSituation()
+    }
+    
+    override func disappaerState() {
+        self.timer.invalidate()
+        self.startPosition = nil
     }
 }

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SceneKit
 
 internal extension Array where Element == SCNVector3 {
     internal var average: SCNVector3? {

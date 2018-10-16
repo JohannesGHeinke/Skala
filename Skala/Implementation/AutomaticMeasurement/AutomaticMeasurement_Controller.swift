@@ -26,7 +26,7 @@ internal final class AutomaticMeasurement_Controller: UIViewController {
     }
     
     //: StatePattern
-    private final var _currentState: AutomaticMeasurement_GeneralState = ManualMeasurement_WalkingState.init()
+    private final var _currentState: AutomaticMeasurement_GeneralState = AutomaticMeasurement_WalkingState.init()
     
     internal final let walkingState = AutomaticMeasurement_WalkingState.init()
     internal final let measurementState = AutomaticMeasurement_MeasurementState.init()

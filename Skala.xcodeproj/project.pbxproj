@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0656A017217600DD001F81F6 /* MessureLogicExtension_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656A016217600DD001F81F6 /* MessureLogicExtension_Array.swift */; };
+		0656A01921760211001F81F6 /* MeasureLogicExtension_ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656A01821760211001F81F6 /* MeasureLogicExtension_ARSCNView.swift */; };
+		0656A01B21760248001F81F6 /* MeasureLogicExtension_CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656A01A21760248001F81F6 /* MeasureLogicExtension_CGPoint.swift */; };
+		0656A01D21760643001F81F6 /* MeasureLogicExtension_CGSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0656A01C21760643001F81F6 /* MeasureLogicExtension_CGSize.swift */; };
 		C610ACA82175D99B00393425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACA72175D99B00393425 /* AppDelegate.swift */; };
 		C610ACAD2175D99B00393425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610ACAB2175D99B00393425 /* Main.storyboard */; };
 		C610ACAF2175D99C00393425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C610ACAE2175D99C00393425 /* Assets.xcassets */; };
@@ -47,7 +50,7 @@
 		C610AD242175FE7200393425 /* BTreeMerger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD132175FE7200393425 /* BTreeMerger.swift */; };
 		C610AD252175FE7200393425 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD142175FE7200393425 /* Weak.swift */; };
 		C610AD262175FE7200393425 /* BTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD152175FE7200393425 /* BTreeNode.swift */; };
-		C610AD282175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD272175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift */; };
+		C610AD282175FEAE00393425 /* _MeasureLogicExtension_ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD272175FEAE00393425 /* _MeasureLogicExtension_ARSCNView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 
 /* Begin PBXFileReference section */
 		0656A016217600DD001F81F6 /* MessureLogicExtension_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessureLogicExtension_Array.swift; sourceTree = "<group>"; };
+		0656A01821760211001F81F6 /* MeasureLogicExtension_ARSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureLogicExtension_ARSCNView.swift; sourceTree = "<group>"; };
+		0656A01A21760248001F81F6 /* MeasureLogicExtension_CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureLogicExtension_CGPoint.swift; sourceTree = "<group>"; };
+		0656A01C21760643001F81F6 /* MeasureLogicExtension_CGSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureLogicExtension_CGSize.swift; sourceTree = "<group>"; };
 		C610ACA42175D99B00393425 /* Skala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610ACA72175D99B00393425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C610ACAC2175D99B00393425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -114,7 +120,7 @@
 		C610AD132175FE7200393425 /* BTreeMerger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeMerger.swift; sourceTree = "<group>"; };
 		C610AD142175FE7200393425 /* Weak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
 		C610AD152175FE7200393425 /* BTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeNode.swift; sourceTree = "<group>"; };
-		C610AD272175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureLogicExtension_ARSCNView.swift; sourceTree = "<group>"; };
+		C610AD272175FEAE00393425 /* _MeasureLogicExtension_ARSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _MeasureLogicExtension_ARSCNView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,8 +272,11 @@
 			isa = PBXGroup;
 			children = (
 				C610ACF52175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift */,
-				C610AD272175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift */,
+				C610AD272175FEAE00393425 /* _MeasureLogicExtension_ARSCNView.swift */,
 				0656A016217600DD001F81F6 /* MessureLogicExtension_Array.swift */,
+				0656A01821760211001F81F6 /* MeasureLogicExtension_ARSCNView.swift */,
+				0656A01A21760248001F81F6 /* MeasureLogicExtension_CGPoint.swift */,
+				0656A01C21760643001F81F6 /* MeasureLogicExtension_CGSize.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -454,7 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C610AD282175FEAE00393425 /* MeasureLogicExtension_ARSCNView.swift in Sources */,
+				C610AD282175FEAE00393425 /* _MeasureLogicExtension_ARSCNView.swift in Sources */,
 				C610AD242175FE7200393425 /* BTreeMerger.swift in Sources */,
 				C610AD202175FE7200393425 /* BTree.swift in Sources */,
 				C610ACE72175E63300393425 /* ManualMeasurement_GeneralState.swift in Sources */,
@@ -464,6 +473,7 @@
 				C610ACFA2175F6F200393425 /* AutomaticMeasurement_GeneralState.swift in Sources */,
 				C610AD1F2175FE7200393425 /* BTreeCursor.swift in Sources */,
 				C610ACEA2175E73A00393425 /* ManualMeasurement_WalkingState.swift in Sources */,
+				0656A01B21760248001F81F6 /* MeasureLogicExtension_CGPoint.swift in Sources */,
 				C610ACE22175E1CB00393425 /* AutomaticMeasurement_Controller.swift in Sources */,
 				C610ACF12175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift in Sources */,
 				C610AD1B2175FE7200393425 /* BTreePath.swift in Sources */,
@@ -487,8 +497,10 @@
 				C610ACA82175D99B00393425 /* AppDelegate.swift in Sources */,
 				C610AD162175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift in Sources */,
 				C610AD172175FE7200393425 /* SortedSet.swift in Sources */,
+				0656A01921760211001F81F6 /* MeasureLogicExtension_ARSCNView.swift in Sources */,
 				C610AD192175FE7200393425 /* SortedBag.swift in Sources */,
 				C610AD262175FE7200393425 /* BTreeNode.swift in Sources */,
+				0656A01D21760643001F81F6 /* MeasureLogicExtension_CGSize.swift in Sources */,
 				C610AD212175FE7200393425 /* BTreeBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,7 +677,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29M2K7MYPU;
+				DEVELOPMENT_TEAM = VUFYV5UYE2;
 				INFOPLIST_FILE = Skala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -683,7 +695,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 29M2K7MYPU;
+				DEVELOPMENT_TEAM = VUFYV5UYE2;
 				INFOPLIST_FILE = Skala/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
