@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C610ACA82175D99B00393425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACA72175D99B00393425 /* AppDelegate.swift */; };
-		C610ACAA2175D99B00393425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACA92175D99B00393425 /* ViewController.swift */; };
 		C610ACAD2175D99B00393425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610ACAB2175D99B00393425 /* Main.storyboard */; };
 		C610ACAF2175D99C00393425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C610ACAE2175D99C00393425 /* Assets.xcassets */; };
 		C610ACB22175D99C00393425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C610ACB02175D99C00393425 /* LaunchScreen.storyboard */; };
 		C610ACBD2175D99C00393425 /* SkalaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACBC2175D99C00393425 /* SkalaTests.swift */; };
 		C610ACC82175D99C00393425 /* SkalaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACC72175D99C00393425 /* SkalaUITests.swift */; };
+		C610ACD82175DA0700393425 /* MainMenue_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACD72175DA0700393425 /* MainMenue_Controller.swift */; };
+		C610ACDA2175DAFF00393425 /* MainMenue_ModeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACD92175DAFF00393425 /* MainMenue_ModeButton.swift */; };
+		C610ACDD2175DD3100393425 /* ManualMeasurement_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACDC2175DD3100393425 /* ManualMeasurement_Controller.swift */; };
+		C610ACE22175E1CB00393425 /* AutomaticMeasurement_Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACE12175E1CB00393425 /* AutomaticMeasurement_Controller.swift */; };
+		C610ACE72175E63300393425 /* ManualMeasurement_GeneralState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACE62175E63300393425 /* ManualMeasurement_GeneralState.swift */; };
+		C610ACEA2175E73A00393425 /* ManualMeasurement_WalkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACE92175E73A00393425 /* ManualMeasurement_WalkingState.swift */; };
+		C610ACEC2175E88300393425 /* ManualMeasurement_MeasurementState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACEB2175E88300393425 /* ManualMeasurement_MeasurementState.swift */; };
+		C610ACEF2175E8F200393425 /* ManualMeasurementUI_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACEE2175E8F200393425 /* ManualMeasurementUI_CancelButton.swift */; };
+		C610ACF12175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACF02175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift */; };
+		C610ACF32175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACF22175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift */; };
+		C610ACF62175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACF52175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +46,6 @@
 /* Begin PBXFileReference section */
 		C610ACA42175D99B00393425 /* Skala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610ACA72175D99B00393425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C610ACA92175D99B00393425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C610ACAC2175D99B00393425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C610ACAE2175D99C00393425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C610ACB12175D99C00393425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,17 @@
 		C610ACC32175D99C00393425 /* SkalaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkalaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C610ACC72175D99C00393425 /* SkalaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkalaUITests.swift; sourceTree = "<group>"; };
 		C610ACC92175D99C00393425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C610ACD72175DA0700393425 /* MainMenue_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenue_Controller.swift; sourceTree = "<group>"; };
+		C610ACD92175DAFF00393425 /* MainMenue_ModeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenue_ModeButton.swift; sourceTree = "<group>"; };
+		C610ACDC2175DD3100393425 /* ManualMeasurement_Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurement_Controller.swift; sourceTree = "<group>"; };
+		C610ACE12175E1CB00393425 /* AutomaticMeasurement_Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_Controller.swift; sourceTree = "<group>"; };
+		C610ACE62175E63300393425 /* ManualMeasurement_GeneralState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurement_GeneralState.swift; sourceTree = "<group>"; };
+		C610ACE92175E73A00393425 /* ManualMeasurement_WalkingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurement_WalkingState.swift; sourceTree = "<group>"; };
+		C610ACEB2175E88300393425 /* ManualMeasurement_MeasurementState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurement_MeasurementState.swift; sourceTree = "<group>"; };
+		C610ACEE2175E8F200393425 /* ManualMeasurementUI_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurementUI_CancelButton.swift; sourceTree = "<group>"; };
+		C610ACF02175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurementUI_TapGestureView.swift; sourceTree = "<group>"; };
+		C610ACF22175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurementUI_ResultLabel.swift; sourceTree = "<group>"; };
+		C610ACF52175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureLogicExtension_SCNVector3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +117,9 @@
 		C610ACA62175D99B00393425 /* Skala */ = {
 			isa = PBXGroup;
 			children = (
+				C610ACE32175E29500393425 /* MeasureLogic */,
+				C610ACD52175D9C100393425 /* Implementation */,
 				C610ACA72175D99B00393425 /* AppDelegate.swift */,
-				C610ACA92175D99B00393425 /* ViewController.swift */,
 				C610ACAB2175D99B00393425 /* Main.storyboard */,
 				C610ACAE2175D99C00393425 /* Assets.xcassets */,
 				C610ACB02175D99C00393425 /* LaunchScreen.storyboard */,
@@ -123,6 +144,79 @@
 				C610ACC92175D99C00393425 /* Info.plist */,
 			);
 			path = SkalaUITests;
+			sourceTree = "<group>";
+		};
+		C610ACD52175D9C100393425 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				C610ACDE2175E13200393425 /* AutomaticMeasurement */,
+				C610ACDB2175DCEF00393425 /* ManualMeasurement */,
+				C610ACD62175D9CA00393425 /* StartMenue */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		C610ACD62175D9CA00393425 /* StartMenue */ = {
+			isa = PBXGroup;
+			children = (
+				C610ACD72175DA0700393425 /* MainMenue_Controller.swift */,
+				C610ACD92175DAFF00393425 /* MainMenue_ModeButton.swift */,
+			);
+			path = StartMenue;
+			sourceTree = "<group>";
+		};
+		C610ACDB2175DCEF00393425 /* ManualMeasurement */ = {
+			isa = PBXGroup;
+			children = (
+				C610ACED2175E8D300393425 /* UserInterface */,
+				C610ACE82175E71C00393425 /* StatePattern */,
+				C610ACDC2175DD3100393425 /* ManualMeasurement_Controller.swift */,
+			);
+			path = ManualMeasurement;
+			sourceTree = "<group>";
+		};
+		C610ACDE2175E13200393425 /* AutomaticMeasurement */ = {
+			isa = PBXGroup;
+			children = (
+				C610ACE12175E1CB00393425 /* AutomaticMeasurement_Controller.swift */,
+			);
+			path = AutomaticMeasurement;
+			sourceTree = "<group>";
+		};
+		C610ACE32175E29500393425 /* MeasureLogic */ = {
+			isa = PBXGroup;
+			children = (
+				C610ACF42175F49600393425 /* Extensions */,
+			);
+			path = MeasureLogic;
+			sourceTree = "<group>";
+		};
+		C610ACE82175E71C00393425 /* StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				C610ACE62175E63300393425 /* ManualMeasurement_GeneralState.swift */,
+				C610ACE92175E73A00393425 /* ManualMeasurement_WalkingState.swift */,
+				C610ACEB2175E88300393425 /* ManualMeasurement_MeasurementState.swift */,
+			);
+			path = StatePattern;
+			sourceTree = "<group>";
+		};
+		C610ACED2175E8D300393425 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				C610ACEE2175E8F200393425 /* ManualMeasurementUI_CancelButton.swift */,
+				C610ACF02175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift */,
+				C610ACF22175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		C610ACF42175F49600393425 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C610ACF52175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +350,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C610ACAA2175D99B00393425 /* ViewController.swift in Sources */,
+				C610ACE72175E63300393425 /* ManualMeasurement_GeneralState.swift in Sources */,
+				C610ACDD2175DD3100393425 /* ManualMeasurement_Controller.swift in Sources */,
+				C610ACD82175DA0700393425 /* MainMenue_Controller.swift in Sources */,
+				C610ACEA2175E73A00393425 /* ManualMeasurement_WalkingState.swift in Sources */,
+				C610ACE22175E1CB00393425 /* AutomaticMeasurement_Controller.swift in Sources */,
+				C610ACF12175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift in Sources */,
+				C610ACEC2175E88300393425 /* ManualMeasurement_MeasurementState.swift in Sources */,
+				C610ACF62175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift in Sources */,
+				C610ACDA2175DAFF00393425 /* MainMenue_ModeButton.swift in Sources */,
+				C610ACF32175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift in Sources */,
+				C610ACEF2175E8F200393425 /* ManualMeasurementUI_CancelButton.swift in Sources */,
 				C610ACA82175D99B00393425 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
