@@ -43,12 +43,12 @@ internal final class ManualMeasurement_MeasurementState: ManualMeasurement_Gener
             UIView.animate(withDuration: 0.5, animations: {
                 controller.resultLabel.alpha = 0.4
             })
+            controller.appendMeasurement(from: startValue, to: endValue)
             controller.currentState = controller.walkingState
         }
     }
     
     override final func handleTouchesBegan(at point: CGPoint) {
-        print(self.startPosition)
         self.handleMeasureSituation()
     }
     

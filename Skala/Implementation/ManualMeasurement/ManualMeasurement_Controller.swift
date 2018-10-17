@@ -12,6 +12,12 @@ import ARKit
 
 internal final class ManualMeasurement_Controller: UIViewController, ARSCNViewDelegate {
     
+    private final var _measurementResults = [(start: SCNVector3, end: SCNVector3)].init()
+    
+    internal final func appendMeasurement(from start: SCNVector3, to end: SCNVector3) {
+        self._measurementResults.append((start, end))
+    }
+    
     //: Init
     override final internal func viewDidLoad() {
         super.viewDidLoad()
@@ -34,13 +40,13 @@ internal final class ManualMeasurement_Controller: UIViewController, ARSCNViewDe
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        self._currentState = self.walkingState
-        
         UIView.animate(withDuration: 0.5) {
             self.cancelButton.alpha = 1.0
             self.tapGestureView.alpha = 1.0
             self.resultLabel.alpha = 0.4
         }
+        
+        self._currentState = self.walkingState
     }
     
     override final func viewWillDisappear(_ animated: Bool) {
