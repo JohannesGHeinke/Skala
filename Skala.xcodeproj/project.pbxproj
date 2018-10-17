@@ -28,10 +28,6 @@
 		C610ACF12175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACF02175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift */; };
 		C610ACF32175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACF22175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift */; };
 		C610ACF62175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACF52175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift */; };
-		C610ACFA2175F6F200393425 /* AutomaticMeasurement_GeneralState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACF92175F6F200393425 /* AutomaticMeasurement_GeneralState.swift */; };
-		C610ACFC2175F73900393425 /* AutomaticMeasurement_WalkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACFB2175F73900393425 /* AutomaticMeasurement_WalkingState.swift */; };
-		C610ACFE2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACFD2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift */; };
-		C610AD002175F7E800393425 /* AutomaticMeasurement_SettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610ACFF2175F7E800393425 /* AutomaticMeasurement_SettingState.swift */; };
 		C610AD022175F8E800393425 /* AutomaticMeasurementUI_CancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD012175F8E800393425 /* AutomaticMeasurementUI_CancelButton.swift */; };
 		C610AD162175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD042175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift */; };
 		C610AD172175FE7200393425 /* SortedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD062175FE7200393425 /* SortedSet.swift */; };
@@ -50,6 +46,10 @@
 		C610AD242175FE7200393425 /* BTreeMerger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD132175FE7200393425 /* BTreeMerger.swift */; };
 		C610AD252175FE7200393425 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD142175FE7200393425 /* Weak.swift */; };
 		C610AD262175FE7200393425 /* BTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C610AD152175FE7200393425 /* BTreeNode.swift */; };
+		C674E86421779D9400FC76EE /* AutomaticMeasurement_State.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674E86321779D9400FC76EE /* AutomaticMeasurement_State.swift */; };
+		C674E87921779FD500FC76EE /* AutomaticMeasurement_WalkingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674E87821779FD500FC76EE /* AutomaticMeasurement_WalkingState.swift */; };
+		C674E87B2177A23600FC76EE /* AutomaticMeasurement_SettingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674E87A2177A23600FC76EE /* AutomaticMeasurement_SettingState.swift */; };
+		C674E87D2177A8B300FC76EE /* AutomaticMeasurement_MeasuringState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674E87C2177A8B300FC76EE /* AutomaticMeasurement_MeasuringState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,10 +97,6 @@
 		C610ACF02175ED4F00393425 /* ManualMeasurementUI_TapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurementUI_TapGestureView.swift; sourceTree = "<group>"; };
 		C610ACF22175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualMeasurementUI_ResultLabel.swift; sourceTree = "<group>"; };
 		C610ACF52175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureLogicExtension_SCNVector3.swift; sourceTree = "<group>"; };
-		C610ACF92175F6F200393425 /* AutomaticMeasurement_GeneralState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_GeneralState.swift; sourceTree = "<group>"; };
-		C610ACFB2175F73900393425 /* AutomaticMeasurement_WalkingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_WalkingState.swift; sourceTree = "<group>"; };
-		C610ACFD2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_MeasurementState.swift; sourceTree = "<group>"; };
-		C610ACFF2175F7E800393425 /* AutomaticMeasurement_SettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_SettingState.swift; sourceTree = "<group>"; };
 		C610AD012175F8E800393425 /* AutomaticMeasurementUI_CancelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurementUI_CancelButton.swift; sourceTree = "<group>"; };
 		C610AD042175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UndirectedGraph & UndirectedGraphSet.swift"; sourceTree = "<group>"; };
 		C610AD062175FE7200393425 /* SortedSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortedSet.swift; sourceTree = "<group>"; };
@@ -119,6 +115,10 @@
 		C610AD132175FE7200393425 /* BTreeMerger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeMerger.swift; sourceTree = "<group>"; };
 		C610AD142175FE7200393425 /* Weak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weak.swift; sourceTree = "<group>"; };
 		C610AD152175FE7200393425 /* BTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTreeNode.swift; sourceTree = "<group>"; };
+		C674E86321779D9400FC76EE /* AutomaticMeasurement_State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_State.swift; sourceTree = "<group>"; };
+		C674E87821779FD500FC76EE /* AutomaticMeasurement_WalkingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_WalkingState.swift; sourceTree = "<group>"; };
+		C674E87A2177A23600FC76EE /* AutomaticMeasurement_SettingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_SettingState.swift; sourceTree = "<group>"; };
+		C674E87C2177A8B300FC76EE /* AutomaticMeasurement_MeasuringState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomaticMeasurement_MeasuringState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,8 +230,8 @@
 		C610ACDE2175E13200393425 /* AutomaticMeasurement */ = {
 			isa = PBXGroup;
 			children = (
+				C674E86221779D7100FC76EE /* StatePattern */,
 				C610AD032175FE7200393425 /* WorldModel */,
-				C610ACF82175F6C800393425 /* StatePattern */,
 				C610ACF72175F6B800393425 /* UserInterface */,
 				C610ACE12175E1CB00393425 /* AutomaticMeasurement_Controller.swift */,
 			);
@@ -286,17 +286,6 @@
 			path = UserInterface;
 			sourceTree = "<group>";
 		};
-		C610ACF82175F6C800393425 /* StatePattern */ = {
-			isa = PBXGroup;
-			children = (
-				C610ACF92175F6F200393425 /* AutomaticMeasurement_GeneralState.swift */,
-				C610ACFB2175F73900393425 /* AutomaticMeasurement_WalkingState.swift */,
-				C610ACFD2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift */,
-				C610ACFF2175F7E800393425 /* AutomaticMeasurement_SettingState.swift */,
-			);
-			path = StatePattern;
-			sourceTree = "<group>";
-		};
 		C610AD032175FE7200393425 /* WorldModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +316,17 @@
 				C610AD152175FE7200393425 /* BTreeNode.swift */,
 			);
 			path = "BTree Beta";
+			sourceTree = "<group>";
+		};
+		C674E86221779D7100FC76EE /* StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				C674E86321779D9400FC76EE /* AutomaticMeasurement_State.swift */,
+				C674E87821779FD500FC76EE /* AutomaticMeasurement_WalkingState.swift */,
+				C674E87A2177A23600FC76EE /* AutomaticMeasurement_SettingState.swift */,
+				C674E87C2177A8B300FC76EE /* AutomaticMeasurement_MeasuringState.swift */,
+			);
+			path = StatePattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -466,7 +466,6 @@
 				C610ACDD2175DD3100393425 /* ManualMeasurement_Controller.swift in Sources */,
 				C610ACD82175DA0700393425 /* MainMenue_Controller.swift in Sources */,
 				C610AD252175FE7200393425 /* Weak.swift in Sources */,
-				C610ACFA2175F6F200393425 /* AutomaticMeasurement_GeneralState.swift in Sources */,
 				C610AD1F2175FE7200393425 /* BTreeCursor.swift in Sources */,
 				C610ACEA2175E73A00393425 /* ManualMeasurement_WalkingState.swift in Sources */,
 				0656A01B21760248001F81F6 /* MeasureLogicExtension_CGPoint.swift in Sources */,
@@ -476,13 +475,11 @@
 				C610AD222175FE7200393425 /* Map.swift in Sources */,
 				C610ACEC2175E88300393425 /* ManualMeasurement_MeasurementState.swift in Sources */,
 				C610AD022175F8E800393425 /* AutomaticMeasurementUI_CancelButton.swift in Sources */,
-				C610ACFC2175F73900393425 /* AutomaticMeasurement_WalkingState.swift in Sources */,
-				C610ACFE2175F76100393425 /* AutomaticMeasurement_MeasurementState.swift in Sources */,
 				C610ACF62175F4B300393425 /* MeasureLogicExtension_SCNVector3.swift in Sources */,
+				C674E87921779FD500FC76EE /* AutomaticMeasurement_WalkingState.swift in Sources */,
 				C610ACDA2175DAFF00393425 /* MainMenue_ModeButton.swift in Sources */,
 				C610AD182175FE7200393425 /* BTreeComparisons.swift in Sources */,
 				C610ACF32175F18A00393425 /* ManualMeasurementUI_ResultLabel.swift in Sources */,
-				C610AD002175F7E800393425 /* AutomaticMeasurement_SettingState.swift in Sources */,
 				C610AD1E2175FE7200393425 /* List.swift in Sources */,
 				C610AD1D2175FE7200393425 /* BridgedList.swift in Sources */,
 				0656A017217600DD001F81F6 /* MessureLogicExtension_Array.swift in Sources */,
@@ -491,12 +488,15 @@
 				C610AD1C2175FE7200393425 /* BTreeIterator.swift in Sources */,
 				C610ACEF2175E8F200393425 /* ManualMeasurementUI_CancelButton.swift in Sources */,
 				C610ACA82175D99B00393425 /* AppDelegate.swift in Sources */,
+				C674E86421779D9400FC76EE /* AutomaticMeasurement_State.swift in Sources */,
 				C610AD162175FE7200393425 /* UndirectedGraph & UndirectedGraphSet.swift in Sources */,
+				C674E87B2177A23600FC76EE /* AutomaticMeasurement_SettingState.swift in Sources */,
 				C610AD172175FE7200393425 /* SortedSet.swift in Sources */,
 				0656A01921760211001F81F6 /* MeasureLogicExtension_ARSCNView.swift in Sources */,
 				C610AD192175FE7200393425 /* SortedBag.swift in Sources */,
 				C610AD262175FE7200393425 /* BTreeNode.swift in Sources */,
 				0656A01D21760643001F81F6 /* MeasureLogicExtension_CGSize.swift in Sources */,
+				C674E87D2177A8B300FC76EE /* AutomaticMeasurement_MeasuringState.swift in Sources */,
 				C610AD212175FE7200393425 /* BTreeBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

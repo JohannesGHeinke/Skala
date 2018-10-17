@@ -1,5 +1,5 @@
 //
-//  AutomaticMeasurement_WalkingState.swift
+//  AutomaticMeasurement_MeasuringState.swift
 //  Skala
 //
 //  Created by Johannes Heinke Business on 17.10.18.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-internal struct AutomaticMeasurement_WalkingState: AutomaticMeasurement_State {
+internal struct AutomaticMeasurement_MeasuringState: AutomaticMeasurement_State {
     
     private let handler: AutomaticMeasurement_Controller
     
@@ -21,7 +21,7 @@ internal struct AutomaticMeasurement_WalkingState: AutomaticMeasurement_State {
     internal nonmutating func disappaer() {}
     
     internal nonmutating func handleTouchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) -> AutomaticMeasurement_Controller.StateKey? {
-        return .measuring
+        return nil
     }
     
     internal nonmutating func handleTouchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) -> AutomaticMeasurement_Controller.StateKey? { return nil }
