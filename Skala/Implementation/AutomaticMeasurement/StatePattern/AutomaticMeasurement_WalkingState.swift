@@ -8,23 +8,3 @@
 
 import Foundation
 import UIKit
-
-internal struct AutomaticMeasurement_WalkingState: AutomaticMeasurement_State {
-    
-    private let handler: AutomaticMeasurement_Controller
-    
-    init(handler: AutomaticMeasurement_Controller) {
-        self.handler = handler
-    }
-    
-    internal nonmutating func appaer() -> AutomaticMeasurement_Controller.StateKey? { return nil }
-    internal nonmutating func disappaer() {}
-    
-    internal nonmutating func handleTouchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) -> AutomaticMeasurement_Controller.StateKey? {
-        return .measuring
-    }
-    
-    internal nonmutating func handleTouchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) -> AutomaticMeasurement_Controller.StateKey? { return nil }
-    internal nonmutating func handleTouchesEnded() -> AutomaticMeasurement_Controller.StateKey? { return nil }
-    internal nonmutating func handleTouchesCancelled() -> AutomaticMeasurement_Controller.StateKey? { return nil }
-}

@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+/*
 //: Verbesserung alles (GUI) in einem File und fileprivate nutzen
 internal final class AutomaticMeasurement_Controller: UIViewController {
     
@@ -101,4 +102,4 @@ internal final class AutomaticMeasurement_Controller: UIViewController {
         button.backgroundColor = UIColor.gray
         return button
     }()
-}
+}*/
