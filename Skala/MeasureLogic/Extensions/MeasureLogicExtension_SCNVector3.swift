@@ -35,6 +35,13 @@ internal extension SCNVector3 {
         return sqrtf(self.x * self.x + self.y * self.y + self.z * self.z)
     }
     
+    internal var normalized: SCNVector3 {
+        guard self.length == 0 else {
+            return self / self.length
+        }
+        return self
+    }
+    
     internal mutating func setLength(_ length: Float) {
         self.normalize()
         self *= length

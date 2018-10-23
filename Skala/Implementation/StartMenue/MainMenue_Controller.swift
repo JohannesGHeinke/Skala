@@ -8,12 +8,13 @@
 
 import UIKit
 import ARKit
+import Toucher
 
 internal final class MainMenue_Controller: UIViewController, ARSCNViewDelegate {
     
     //: Subviews
     private final let manualMeasurementController = ManualMeasurement_Controller.init(nibName: nil, bundle: nil)
-    private final let automaticMeasurementController = AutomaticMeasurement_Controller.init(nibName: nil, bundle: nil)
+    //private final let automaticMeasurementController = AutomaticMeasurement_Controller.init(nibName: nil, bundle: nil)
     
     //: GUI-Elements
     private lazy var manualMeasureButton = { () -> MainMenue_ModeButton in
@@ -34,10 +35,10 @@ internal final class MainMenue_Controller: UIViewController, ARSCNViewDelegate {
     private lazy var automaticMeasureButton = { () -> MainMenue_ModeButton in
         let button = MainMenue_ModeButton.init(frame: CGRect.init(x: 70, y: 140, width: 150, height: 70)
             , touchesBeganAction: {
-                self.present(self.automaticMeasurementController, animated: true, completion: {
+                /*self.present(self.automaticMeasurementController, animated: true, completion: {
                     print("AutomaticMeasurement presented")
                     return
-                })
+                })*/
         })
         button.backgroundColor = UIColor.gray
         button.setTitle("Automatic", for: .normal)
@@ -53,14 +54,14 @@ internal final class MainMenue_Controller: UIViewController, ARSCNViewDelegate {
         self.view.backgroundColor = UIColor.black
         
         self.manualMeasureButton.alpha = 0.0
-        self.automaticMeasureButton.alpha = 0.0
+        //self.automaticMeasureButton.alpha = 0.0
         
         self.view.addSubview(self.manualMeasureButton)
-        self.view.addSubview(self.automaticMeasureButton)
+        //self.view.addSubview(self.automaticMeasureButton)
         
         UIView.animate(withDuration: 1.0) {
             self.manualMeasureButton.alpha = 1.0
-            self.automaticMeasureButton.alpha = 1.0
+            //self.automaticMeasureButton.alpha = 1.0
         }
     }
 
